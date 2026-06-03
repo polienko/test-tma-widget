@@ -1,0 +1,1 @@
+https://t.me/test_toncast_widget_bot/app
