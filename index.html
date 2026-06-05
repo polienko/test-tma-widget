@@ -12,7 +12,7 @@
         min-height: 100vh;
         min-height: 100dvh;
         color-scheme: light;
-        background: #2b2c46;
+        background: #b0b1d4;
         /* Prevent the WebView itself from bouncing/elastic-scrolling when the
            user swipes on non-scrollable areas (header, nav bar). Scrolling
            within .tc-content is unaffected — it has overscroll-behavior:contain. */
@@ -31,7 +31,7 @@
         max(env(safe-area-inset-left, 0px), var(--tg-safe-area-inset-left, 0px));
         display: flex;
         flex-direction: column;
-        background: #2b2c46;
+        background: #b0b1d4;
       }
       #toncast-widget {
         flex: 1 1 auto;
@@ -50,7 +50,7 @@
          Deferred scripts execute in order before DOMContentLoaded, so the init
          below always sees window.Telegram and window.ToncastWidget ready. -->
     <script src="https://telegram.org/js/telegram-web-app.js" defer></script>
-    <script src="https://widget.toncast.me/v0/index.iife.js" defer></script>
+    <script src="https://widget.toncast.me/v0/index.iife.js?v=1241557728" defer></script>
     <script>
       window.addEventListener('DOMContentLoaded', function () {
         (function initToncastTelegramHost() {
@@ -103,7 +103,7 @@
                 "widget": {
                         "language": "ru",
                         "cssVars": {
-                                "bg": "#2b2c46"
+                                "bg": "#b0b1d4"
                         },
                         "layout": {
                                 "grid": {
